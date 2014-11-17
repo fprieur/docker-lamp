@@ -11,5 +11,3 @@ RUN apt-get install apache2 -y
 RUN apt-get install mysql-server -y
 
 RUN apt-get install php5 libapache2-mod-php5 -y
-
-RUN /etc/init.d/apache2 restart
